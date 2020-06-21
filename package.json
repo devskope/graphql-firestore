@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Simple GraphQL(Apollo) server - Firebase(Firestore) example in Typescript",
   "main": "/src/index",
-  "scripts": {},
+  "scripts": {
+    "dev": "tsnd --respawn --transpileOnly -r dotenv/config -r tsconfig-paths/register  ./src/index.ts",
+    "start": "node -r ./ts-config-paths-bootstrap.js  -r dotenv/config ./build"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
