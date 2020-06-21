@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noImplicitAny": true,
+    "outDir": "build",
+    "paths": {
+      "@config/*": ["./config/*"],
+      "@graphql/*": ["./graphql/*"],
+      "@services/*": ["./services/*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ES2019"
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "include": ["src/**/*"]
+}
