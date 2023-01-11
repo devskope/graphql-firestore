@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "2.14.4",
-    "class-validator": "0.12.2",
+    "class-validator": "0.14.0",
     "cors": "2.8.5",
     "debug": "4.1.1",
     "dotenv": "8.2.0",
